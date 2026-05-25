@@ -1,0 +1,29 @@
+# EditorConfig: https://editorconfig.org
+# Aligns with .gitattributes (text, eol=lf) and .prettierrc (tabs, LF).
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{js,jsx,mjs,cjs,ts,tsx,svelte,html,css,scss,less,json,jsonc,md,mdx,txt}]
+indent_style = tab
+indent_size = 4
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.sh]
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style = tab
