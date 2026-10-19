@@ -14,10 +14,10 @@ dependencies = [
 
     "python-socketio==5.16.1",
     "python-jose==3.5.0",
-    "cryptography==46.0.5",
+    "cryptography==50.0.2",
     "bcrypt==5.0.0",
     "argon2-cffi==25.1.0",
-    "PyJWT[crypto]==2.11.0",
+    "PyJWT[crypto]==2.15.0",
     "authlib==1.6.10",
 
     "requests==2.33.1",
@@ -44,7 +44,7 @@ dependencies = [
 
     "pytz==2026.1.post1",
     "APScheduler==3.11.2",
-    "RestrictedPython==8.1",
+    "RestrictedPython==8.4",
 
     "loguru==0.7.3",
     "asgiref==3.11.1",
@@ -62,26 +62,26 @@ dependencies = [
     "langchain-text-splitters==1.1.1",
 
     "fake-useragent==2.2.0",
-    "chromadb==1.5.2",
+    "chromadb==1.5.9",
     "opensearch-py==3.1.0",
     "PyMySQL==1.1.2",
     "boto3==1.42.62",
     
-    "transformers==5.5.4",
-    "sentence-transformers==5.4.0",
-    "accelerate==1.13.0",
+    "transformers==5.9.0",
+    "sentence-transformers==6.1.0",
+    "accelerate==1.15.0",
     "pyarrow==20.0.0", # fix: pin pyarrow version to 20 for rpi compatibility #15897
     "einops==0.8.2",
 
     "ftfy==6.3.1",
     "chardet==5.2.0",
-    "pypdf==6.7.5",
+    "pypdf==6.19.0",
     "fpdf2==2.8.7",
-    "pymdown-extensions==10.21",
+    "pymdown-extensions==12.3",
     "docx2txt==0.9",
     "python-pptx==1.0.2",
     "msoffcrypto-tool==6.0.0",
-    "nltk==3.9.3",
+    "nltk==3.10.3",
     "Markdown==3.10.2",
     "beautifulsoup4==4.14.3",
     "pypandoc==1.16.2",
@@ -144,11 +144,11 @@ mariadb = [
     "mariadb==1.1.14",
 ]
 unstructured = [
-    "unstructured==0.18.31",
+    "unstructured==0.24.1",
 ]
 
 all = [
-    "pymongo==4.16.0",
+    "pymongo==4.18.2",
     "psycopg2-binary==2.9.11",
     "pgvector==0.4.2",
     "moto[s3]>=5.0.26",
@@ -168,7 +168,7 @@ all = [
     "colbert-ai==0.2.22",
 
     "azure-search-documents==11.6.0",
-    "unstructured==0.18.31",
+    "unstructured==0.24.1",
 ]
 
 [project.scripts]
